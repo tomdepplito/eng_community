@@ -431,27 +431,206 @@
         1,
         null,
         1,
+        null,
+        1,
         null
       ],
       "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/models/user.rb": [
         1,
-        null,
+        1,
         null,
         null,
         1,
         null,
-        null,
-        null,
         1,
-        null,
-        null,
         null
       ],
       "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/helpers/application_helper.rb": [
         1,
         null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/helpers/companies_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/controllers/companies_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/models/company.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/helpers/companies_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/models/address_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/models/address.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/models/company_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/models/image_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/models/image.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/models/inquery_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/models/inquery.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/models/product_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/models/product.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/models/tag_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/models/tag.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/models/user_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1345414312
+    "timestamp": 1345657390
   }
 }
