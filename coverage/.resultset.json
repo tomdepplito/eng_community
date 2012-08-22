@@ -443,6 +443,9 @@
         1,
         null,
         1,
+        null,
+        1,
+        1,
         null
       ],
       "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/helpers/application_helper.rb": [
@@ -606,6 +609,26 @@
         1,
         null
       ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/models/response_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/tomdepplito/Dropbox/tom depplito/eng_community/app/models/response.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null
+      ],
       "/Users/tomdepplito/Dropbox/tom depplito/eng_community/spec/models/tag_spec.rb": [
         1,
         null,
@@ -631,6 +654,6 @@
         null
       ]
     },
-    "timestamp": 1345657390
+    "timestamp": 1345666105
   }
 }
