@@ -1,0 +1,11 @@
+<%= form_for @address do |f| %>
+ 	<%= f.label "Street Address" %>
+  	<%= f.text_field :street_address %>
+  	<%= f.label "City" %>
+  	<%= f.text_field :city %>
+  	<%= f.label "State" %>
+  	<%= f.text_field :state %>
+  	<%= f.label "Zip Code" %>
+  	<%= f.text_field :zip %>
+	<%= f.hidden_field :company_id => company_id %>
+<% end %>

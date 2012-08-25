@@ -7,6 +7,6 @@ class Company < ActiveRecord::Base
   validates_uniqueness_of :website
   
   has_many :addresses
-  has_many :users
+  has_many :employees, :class_name => "User"
   has_many :products
 end

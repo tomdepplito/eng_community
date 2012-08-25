@@ -1,10 +1,13 @@
 class CompaniesController < ApplicationController
+  before_filter :authenticate_user!
+  
   def new
     @company = Company.new
   end
   
   def create
     @company = Company.new(params[:company])
+    @company.admin_id = current_user
     if @company.save
       flash[:success] = "You have created a new company"
       redirect_to company_path(@company)
