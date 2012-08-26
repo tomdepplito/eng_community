@@ -1,0 +1,18 @@
+<% @companies.each do |company| %>
+	<div class="company">
+	Company: <%= company.name %>
+	Website: <%= company.website %>
+	<% if !company.addresses.empty? %>
+		<h3>Locations</h3>
+		<% company.addresses.each do |address| %>
+			<div class="address">
+			Street Address: <%= address.street_address %>
+			City: <%= address.city %>
+			State: <%= address.state %>
+			Zip: <%= address.zip %>
+			</div>
+		<% end %>
+	<% end %>
+	</div><br />
+<% end %>
+		

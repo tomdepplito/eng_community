@@ -1,4 +1,6 @@
 EngCommunity::Application.routes.draw do
+  
+  root :to => 'companies#index'
 
   devise_for :users
   
@@ -26,5 +28,5 @@ EngCommunity::Application.routes.draw do
   #   resources :inqueries
   # end
 
-  #root :to => 'companies#new'
+  
 end
