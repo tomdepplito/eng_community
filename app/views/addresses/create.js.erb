@@ -1,1 +1,1 @@
-$('.address_form').empty()
+$('.address_form').empty().append("<%=j link_to 'Add Address', new_address_path(:company_id => params[:id]), :remote => true %>");
