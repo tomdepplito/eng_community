@@ -2,8 +2,12 @@ EngCommunity::Application.routes.draw do
 
   devise_for :users
   
+  resources :addresses
+  
+  resources :tags
+  
   resources :companies do
-    resources :addresses
+    #resources :addresses
   end
   
   resources :users do

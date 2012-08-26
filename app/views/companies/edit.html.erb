@@ -1,0 +1,7 @@
+<h1>Edit</h1>
+<div class='add_address'>
+	<%= link_to "Add Address", new_address_path(:company_id => @company.id), :remote => true %>
+</div>
+<div class='add_tags'>
+	<%= link_to "Add Tag", new_tag_path(:company_id => @company.id), :remote => true %>
+</div>

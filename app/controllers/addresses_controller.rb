@@ -3,6 +3,9 @@ class AddressesController < ApplicationController
   
   def new
     @address = Address.new
+    respond_to do |format|
+      format.js
+    end
   end
   
   def create
