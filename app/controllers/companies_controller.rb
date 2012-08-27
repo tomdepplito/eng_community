@@ -23,6 +23,7 @@ class CompaniesController < ApplicationController
   
   def show
     @company = Company.find(params[:id])
+    @products = Product.all
   end
   
   def edit

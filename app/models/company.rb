@@ -9,4 +9,5 @@ class Company < ActiveRecord::Base
   has_many :addresses
   has_many :employees, :class_name => "User"
   has_many :products
+  
 end

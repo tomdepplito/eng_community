@@ -1,0 +1,7 @@
+<h1><%= @user.email %></h1>
+<% if @admin_companies.any? %>
+	<h3>Admin Companies</h3>
+	<%= render :partial => 'shared/company_iteration', :locals => {:companies => @admin_companies} %>
+<% elsif @employee_companies.any? %>
+	<%= render :partial => 'shared/company_iteration', :locals => {:companies => @employee_companies} %>
+<% end %>

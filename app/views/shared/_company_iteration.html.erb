@@ -1,0 +1,17 @@
+<% companies.each do |company| %>
+	<div class="company">
+	<h3><%= link_to "#{company.name}", company_path(company.id) %></h3>
+	Website: <a href="<%= company.website %>"><%= company.website %></a>
+	<% if !company.addresses.empty? %>
+		<h3>Locations</h3>
+		<% company.addresses.each do |address| %>
+			<div class="address">
+			Street Address: <%= address.street_address %>
+			City: <%= address.city %>
+			State: <%= address.state %>
+			Zip: <%= address.zip %>
+			</div>
+		<% end %>
+	<% end %>
+	</div><br />
+<% end %>
